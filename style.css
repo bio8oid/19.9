@@ -1,0 +1,60 @@
+body {
+	height: 100%;
+	margin: 20px;
+	font-family: 'Baloo', cursive;
+	background-image: linear-gradient(to bottom left, #17141d, #201c29);
+	border-radius: 30px;
+	box-shadow: 2px 2px 80px #190b14;
+}
+
+.container {
+	padding: 50px;
+}
+
+input {
+	margin: 25px;
+	border-radius: 5px;
+	height: 30px;
+	width: 30%;
+	font-size: 22px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	background: -webkit-linear-gradient(153deg, #3be2bc 0%, #1b96f1 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 30px;
+}
+
+.user-name {
+	background: -webkit-linear-gradient(153deg, #3be2bc 0%, #1b96f1 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none;
+}
+
+.user-block {
+	display: flex;
+	justify-content: center;
+}
+
+.user-block a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+	font-size: 22px;
+}
+
+img {
+	height: 180px;
+	border-radius: 50%;
+	margin: 10px;
+}
