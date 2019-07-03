@@ -34,6 +34,11 @@ label {
 }
 
 .user-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+	font-size: 22px;
 	background: -webkit-linear-gradient(153deg, #3be2bc 0%, #1b96f1 95%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -43,14 +48,6 @@ label {
 .user-block {
 	display: flex;
 	justify-content: center;
-}
-
-.user-block a{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: 30px;
-	font-size: 22px;
 }
 
 img {
